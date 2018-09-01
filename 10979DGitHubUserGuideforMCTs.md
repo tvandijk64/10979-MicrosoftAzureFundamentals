@@ -1,4 +1,4 @@
-10# GitHub User Guide for MCTs
+﻿10# GitHub User Guide for MCTs
 
 Cloud services, such as Microsoft Azure, are updated frequently. This leads to issues for Microsoft Certified Trainers (MCTs) when they teach courses, such as _20532: Developing Microsoft Azure Solutions_ or _10979: Microsoft Azure Fundamentals_, because lab steps change frequently as the service changes. Due to the frequency of the changes and the fact that there may not be any notification when changes occur, it can be difficult for the course development team to rapidly identify and address any lab changes.
 
@@ -102,7 +102,7 @@ Pandoc is a tool that you can use to convert files from one format to another. I
 
 To install Pandoc, perform the following steps:
 
-1. In your browser, navigate to [https://github.com/jgm/pandoc/releases](https://github.com/jgm/pandoc/releases).
+1. In your browser, navigate to [https://github.com/jgm/pandoc/releases](https://github.com/jgm/pandoc/releases/tag/1.19.2).
 
 
 3. Click **pandoc-1.19.2-windows.msi**.
