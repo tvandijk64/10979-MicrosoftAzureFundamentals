@@ -1,4 +1,4 @@
-﻿function GetVersionNumber{
+function GetVersionNumber{
     $output = $null
     do {
         $output = Read-Host 'What is the current version?'
@@ -6,7 +6,7 @@
     while (!$output)
     return $output
 }
-
+ 
 function ZipFiles{
     param($filesDirectory, $docsDirectory, $versionData)
     $filesOutput = "allfiles-v" + $versionData + ".zip"
@@ -53,7 +53,7 @@ foreach($file in Get-ChildItem $docsInputDirectory | Where-Object {$_.Extension 
 }
 
 ' Copy AllFiles '
-Copy-Item $filesInputDirectory –Destination $outputDirectory -Recurse -Container
+Copy-Item $filesInputDirectory �Destination $outputDirectory -Recurse -Container
 
 ' Compress AllFiles & Lab Instructions '
 ZipFiles $filesOutputDirectory $docsOutputDirectory $version
